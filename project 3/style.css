@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 196);
+    font-family: sans-serif;
+}
+
+#outer {
+ 
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 250px;
+  
+
+} 
+h2{
+    color: firebrick;
+    font-size: 1.8rem;
+}
+input {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+#tempdiff{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-left: 10px;
+}
+#submit{
+    
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    width: 35%;
+    border: 2px solid white;
+}
+#submit:hover{
+    
+    background-color: black;
+    color: white;
+}
+/* #result{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    text-align: center;
+} */
+#resultcontainer{
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    text-align: center;
+
+}

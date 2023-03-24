@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Convertor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="pr.js"> -->
+</head>
+
+<body>
+    <div id="outer">
+        <h2>Please Enter The Temperature You Would Like To Convert</h2> <br>
+        <div id="inner">
+            <form id="form" onsubmit="calculateTemp(); return false">
+                <input type="number" name="number" id="inputnumber" >
+                <select name="tempdiff" id="tempdiff">
+                    <option value="celsius">celsius</option>
+                    <option value="Fahrenheit">Fahrenheit</option>
+                </select><br>
+                <br> <input type="submit" id="submit" name="Submit">
+
+            </form>
+            
+        </div>
+        <span id="resultcontainer">Loading....</span>
+
+    </div>
+
+    <script src="pr.js"></script>
+</body>
+
+</html>
